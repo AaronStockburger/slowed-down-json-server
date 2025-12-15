@@ -1,0 +1,56 @@
+{
+  "riskEvaluations": [
+    {
+      "id": 1,
+      "segmentId": "A",
+      "segmentType": "Wohngebiet",
+      "currentLoadKw": 120,
+      "expectedLoadKw": 180,
+      "weather": "gut",
+      "incidentsLastYear": 1,
+      "riskScore": 0.3,
+      "topRiskSegment": "C",
+      "overloadProbability": 0.15,
+      "recommendation": "Keine Maßnahme nötig, weiter beobachten."
+    },
+    {
+      "id": 2,
+      "segmentId": "B",
+      "segmentType": "Gewerbegebiet",
+      "currentLoadKw": 250,
+      "expectedLoadKw": 380,
+      "weather": "mittel",
+      "incidentsLastYear": 3,
+      "riskScore": 0.6,
+      "topRiskSegment": "B",
+      "overloadProbability": 0.4,
+      "recommendation": "Leitungsreserve prüfen, optional Lastverschiebung planen."
+    },
+    {
+      "id": 3,
+      "segmentId": "C",
+      "segmentType": "Landwirtschaft",
+      "currentLoadKw": 80,
+      "expectedLoadKw": 140,
+      "weather": "schlecht",
+      "incidentsLastYear": 5,
+      "riskScore": 0.8,
+      "topRiskSegment": "C",
+      "overloadProbability": 0.7,
+      "recommendation": "Verstärkung / Wartung zeitnah einplanen."
+    },
+    {
+      "id": 4,
+      "segmentId": "D",
+      "segmentType": "Industriegebiet_klein",
+      "currentLoadKw": 300,
+      "expectedLoadKw": 330,
+      "weather": "gut",
+      "incidentsLastYear": 0,
+      "riskScore": 0.2,
+      "topRiskSegment": "C",
+      "overloadProbability": 0.1,
+      "recommendation": "Aktuell stabil, keine unmittelbare Maßnahme."
+    }
+  ]
+}
